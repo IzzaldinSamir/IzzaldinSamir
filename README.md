@@ -10,7 +10,7 @@ I'm a Telecommunications Engineer (B.Sc. Rank 1) based in Bucharest, pursuing my
 I actively troubleshoot and contribute to enterprise and infrastructure projects:
 - **AI Infrastructure (`canvas-api-mcp`):** [Implemented secure HTTP error handling and wrote Python regression tests](https://github.com/JohannsenLum/canvas-api-mcp/pull/25) to prevent API credential leakage. *(Merged)*
 - **Kubernetes Automation (`kprompt`):** [Enforced strict resource-scaling validation](https://github.com/kprompt/kprompt/pull/113) to prevent late-stage executor failures. *(Merged)*
-- **Canonical / Ubuntu (`lxd`):** [Fixed an asynchronous API race condition](https://github.com/canonical/lxd/pull/18830) by refactoring the HTTP Wait endpoint payloads in Go.
+- **Canonical / Ubuntu (`lxd`):** [Fixed an asynchronous API race condition](https://github.com/canonical/lxd/pull/18852) by refactoring the HTTP Wait endpoint payloads in Go. *(In Review)*
 - **Terminal UI (`lazyftp`):** [Resolved an order-of-operations rendering bug](https://github.com/MawCeron/lazyftp/pull/57) in a Go-based TUI client. *(Merged)*
 - **Enterprise Support Desk (`libredesk`):** [Patched a Dark Mode UI bug](https://github.com/abhinavxd/libredesk/pull/452) for raw HTML rendering using Vue.js & Tailwind CSS.
 - **Media Extraction Engine (`crunchyroll-downloader`):** [Rewrote a Go tool's memory allocation to stream 7GB+ payloads directly to disk](https://github.com/CuteTenshii/crunchyroll-downloader/pull/31), mitigating fatal OS-level Out-Of-Memory (OOM) crashes.
