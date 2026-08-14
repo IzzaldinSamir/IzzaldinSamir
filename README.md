@@ -8,6 +8,7 @@ I'm a Telecommunications Engineer (B.Sc. Rank 1) based in Bucharest, pursuing my
 
 ### 🚀 Open Source Contributions
 I actively troubleshoot and contribute to enterprise and infrastructure projects:
+- **Linux Foundation (`FabricOps`):** [Implemented YAML serialization for Kubernetes-native status reporting](https://github.com/LF-Decentralized-Trust-labs/FabricOps/pull/35) in a Go-based CLI tool, including comprehensive unit testing.
 - **AI Infrastructure (`canvas-api-mcp`):** [Implemented secure HTTP error handling and wrote Python regression tests](https://github.com/JohannsenLum/canvas-api-mcp/pull/25) to prevent API credential leakage. *(Merged)*
 - **Kubernetes Automation (`kprompt`):** [Enforced strict resource-scaling validation](https://github.com/kprompt/kprompt/pull/113) to prevent late-stage executor failures. *(Merged)*
 - **Canonical / Ubuntu (`lxd`):** [Fixed an asynchronous API race condition](https://github.com/canonical/lxd/pull/18852) by refactoring the HTTP Wait endpoint payloads in Go. *(In Review)*
