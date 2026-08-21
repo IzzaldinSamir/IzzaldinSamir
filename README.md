@@ -1,10 +1,15 @@
 ### Hi there, I'm Ezzulddin (Izzaldin) 👋
 
-I'm a Telecommunications Engineer (B.Sc. Rank 1/33) based in Bucharest, pursuing an M.Sc. in Security Management (SMICES) at UPB. I specialize in Network Operations (NOC), Linux Systems Administration, and Containerized Infrastructure.
+I'm a Telecommunications Engineer (B.Sc. Rank 1/33) based in Bucharest, pursuing an M.Sc. in Security Management (SMICES) at UPB. I specialize in Network Operations (NOC), Linux Systems Administration, and Telecom OSS Backend Integration.
 
 - 🔭 **Target Roles:** Junior NOC Engineer / Network Support / Junior DevOps / Systems Administrator.
-- ⚙️ **Daily Toolkit:** Linux (Ubuntu/Debian), Go, Bash, Python, Docker, Prometheus, Grafana, and Git.
-- 🔬 **Featured Lab:** [**IoT NOC Monitoring Lab**](https://github.com/IzzaldinSamir/iot-noc-monitoring-lab) — Multi-container observability stack (Mosquitto MQTT, Prometheus, Grafana) with custom Go health check probes and ITIL L2 Wireshark triage runbooks.
+- ⚙️ **Daily Toolkit:** Linux (Ubuntu/Debian), Go, Java, Bash, Python, Docker, Prometheus, Grafana, and Git.
+
+---
+
+### 🔬 Engineering & Telecom Labs
+- 📡 [**OSS Order Fulfilment Lab**](https://github.com/IzzaldinSamir/oss-order-fulfilment-lab) — Telecom OSS service-order provisioning engine in Java 21 featuring PostgreSQL persistence, SOAP inventory integration, JUnit 5 test suite (74.9% coverage), Docker Compose, and an L1/L2 operational runbook.
+- 📊 [**IoT NOC Monitoring Lab**](https://github.com/IzzaldinSamir/iot-noc-monitoring-lab) — Multi-container observability stack (Mosquitto MQTT, Prometheus, Grafana) with custom Go health check probes and ITIL L2 Wireshark packet-triage runbooks.
 
 ---
 
@@ -23,7 +28,7 @@ I actively troubleshoot and contribute upstream fixes to enterprise and systems 
 ---
 
 ### 🛠️ Tech Stack & Infrastructure
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=Prometheus&logoColor=white) ![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=Prometheus&logoColor=white) ![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
 ---
 
