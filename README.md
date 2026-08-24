@@ -21,6 +21,7 @@ I actively troubleshoot and contribute upstream fixes to enterprise and systems 
 - **Kubernetes Automation (`kprompt`):** [Enforced strict resource-scaling validation in Go](https://github.com/kprompt/kprompt/pull/113) to prevent late-stage executor failures. *(Merged)*
 - **AI Infrastructure (`canvas-api-mcp`):** [Implemented secure HTTP error handling and Python regression tests](https://github.com/JohannsenLum/canvas-api-mcp/pull/25) to prevent API credential leakage. *(Merged)*
 - **Terminal UI (`lazyftp`):** [Resolved an order-of-operations rendering bug](https://github.com/MawCeron/lazyftp/pull/57) in a Go-based TUI client. *(Merged)*
+- **Security CLI Engine (`nexguard`):** [Added JSON output serialization flag to quarantine CLI commands](https://github.com/reach-x/nexguard/pull/67) in Go. *(In Review)*
 - **Canonical / Ubuntu (`lxd`):** [Fixed an asynchronous API race condition in Go](https://github.com/canonical/lxd/pull/18852) by refactoring the HTTP Wait endpoint payloads. *(In Review)*
 - **Enterprise Support Desk (`libredesk`):** [Patched a Dark Mode UI bug for raw HTML email rendering](https://github.com/abhinavxd/libredesk/pull/452) using Vue.js & Tailwind CSS. *(Approved / Queued for Release)*
 - **Media Extraction Engine (`crunchyroll-downloader`):** [Rewrote memory allocation in Go to stream 7GB+ payloads directly to disk](https://github.com/CuteTenshii/crunchyroll-downloader/pull/31), mitigating OS-level OOM crashes. *(In Review)*
