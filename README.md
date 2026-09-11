@@ -2,7 +2,7 @@
 
 I'm a Telecommunications Engineer (B.Sc. Rank 1/33) based in Bucharest, pursuing an M.Sc. in Security Management (SMICES) at UPB. I specialize in Network Operations (NOC), Linux Systems Administration, and Telecom OSS Backend Integration.
 
-- 🔭 **Target Roles:** Junior NOC Engineer / Network Support / Junior DevOps / Systems Administrator.
+- 🔭 **Primary Target:** Junior NOC Engineer / Network Support / Telecom Operations roles in Bucharest or remote.
 - ⚙️ **Daily Toolkit:** Linux (Ubuntu/Debian), Go, Java, Bash, Python, Docker, Prometheus, Grafana, and Git.
 
 ---
