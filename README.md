@@ -23,6 +23,7 @@ I actively troubleshoot and contribute upstream fixes to enterprise and systems 
 - **Terminal UI (`lazyftp`):** [Resolved an order-of-operations rendering bug](https://github.com/MawCeron/lazyftp/pull/57) in a Go-based TUI client. *(Merged)*
 - **SQL Engine (`go-mysql-server`):** [Replaced runtime binary-collation name checks with explicit metadata](https://github.com/dolthub/go-mysql-server/pull/3850) and added regression coverage across the collation table. *(In Review)*
 - **Security CLI Engine (`nexguard`):** [Added scriptable JSON output to quarantine listings](https://github.com/jbrahy/nexguard/pull/67), including stable empty-array output and regression coverage. *(Merged)*
+- **Workflow Orchestration (`kestractl`):** [Made destructive flow deletion opt-in for bulk updates](https://github.com/kestra-io/kestractl/pull/165), aligned command safety defaults, and added regression coverage. *(In Review)*
 - **Canonical / Ubuntu (`lxd`):** [Fixed an asynchronous API race condition in Go](https://github.com/canonical/lxd/pull/18852) by refactoring the HTTP Wait endpoint payloads. *(In Review)*
 - **Enterprise Support Desk (`libredesk`):** [Patched a Dark Mode UI bug for raw HTML email rendering](https://github.com/abhinavxd/libredesk/pull/452) using Vue.js & Tailwind CSS. *(Approved / Queued for Release)*
 - **Media Extraction Engine (`crunchyroll-downloader`):** [Rewrote memory allocation in Go to stream 7GB+ payloads directly to disk](https://github.com/CuteTenshii/crunchyroll-downloader/pull/31), mitigating OS-level OOM crashes. *(Merged)*
