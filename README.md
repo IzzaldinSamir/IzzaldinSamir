@@ -4,6 +4,7 @@ I'm a Telecommunications Engineer (B.Sc. Rank 1/33) based in Bucharest, pursuing
 
 - 🔭 **Primary Target:** Junior NOC Engineer / Network Support / Telecom Operations roles in Bucharest or remote.
 - ⚙️ **Daily Toolkit:** Linux (Ubuntu/Debian), Go, Java, Bash, Python, Docker, Prometheus, Grafana, and Git.
+- 🤝 **Open Source:** 8 merged upstream pull requests across infrastructure, systems, security, and support tooling.
 
 ---
 
@@ -26,7 +27,7 @@ I actively troubleshoot and contribute upstream fixes to enterprise and systems 
 - **Workflow Orchestration (`kestractl`):** [Made destructive flow deletion opt-in for bulk updates](https://github.com/kestra-io/kestractl/pull/165), aligned command safety defaults, and added regression coverage. *(In Review)*
 - **Template Tooling (`viber`):** [Hardened remote template archive loading](https://github.com/abits/viber/pull/12) against unsafe paths and oversized extraction, with regression coverage. *(In Review)*
 - **Canonical / Ubuntu (`lxd`):** [Fixed an asynchronous API race condition in Go](https://github.com/canonical/lxd/pull/18852) by refactoring the HTTP Wait endpoint payloads. *(In Review)*
-- **Enterprise Support Desk (`libredesk`):** [Patched a Dark Mode UI bug for raw HTML email rendering](https://github.com/abhinavxd/libredesk/pull/452) using Vue.js & Tailwind CSS. *(Approved / Queued for Release)*
+- **Enterprise Support Desk (`libredesk`):** [Scoped incoming HTML email content to a light canvas in Dark Mode](https://github.com/abhinavxd/libredesk/pull/452) using Vue and SCSS, preserving inline sender colours and readability. *(Merged)*
 - **Media Extraction Engine (`crunchyroll-downloader`):** [Rewrote memory allocation in Go to stream 7GB+ payloads directly to disk](https://github.com/CuteTenshii/crunchyroll-downloader/pull/31), mitigating OS-level OOM crashes. *(Merged)*
 
 ---
