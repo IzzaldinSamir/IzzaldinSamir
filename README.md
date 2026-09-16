@@ -4,7 +4,7 @@ I'm a Telecommunications Engineer (B.Sc. Rank 1/33) based in Bucharest, pursuing
 
 - 🔭 **Primary Target:** Junior NOC Engineer / Network Support / Telecom Operations roles in Bucharest or remote.
 - ⚙️ **Daily Toolkit:** Linux (Ubuntu/Debian), Go, Java, Bash, Python, Docker, Prometheus, Grafana, and Git.
-- 🤝 **Open Source:** 8 merged upstream pull requests across infrastructure, systems, security, and support tooling.
+- 🤝 **Open Source:** 9 merged upstream pull requests across infrastructure, systems, security, and support tooling.
 
 ---
 
@@ -17,6 +17,7 @@ I'm a Telecommunications Engineer (B.Sc. Rank 1/33) based in Bucharest, pursuing
 ### 🚀 Open Source Contributions
 I actively troubleshoot and contribute upstream fixes to enterprise and systems tooling:
 
+- **Canonical / Ubuntu (`lxd`):** [Corrected operation-wait failure, timeout, and cancellation semantics](https://github.com/canonical/lxd/pull/18852) across the LXD daemon and agent, with regression coverage across affected integration suites. *(Merged)*
 - **Linux Foundation (`FabricOps`):** [Implemented YAML serialization for Kubernetes-native status reporting](https://github.com/LF-Decentralized-Trust-labs/FabricOps/pull/35) in a Go-based CLI tool. *(Merged)*
 - **Desktop Audio Client (`limusic`):** [Implemented cross-platform webview zoom scaling hotkeys for high-DPI displays](https://github.com/SimoHypers/limusic/pull/58) in Tauri. *(Merged)*
 - **Kubernetes Automation (`kprompt`):** [Enforced strict resource-scaling validation in Go](https://github.com/kprompt/kprompt/pull/113) to prevent late-stage executor failures. *(Merged)*
@@ -26,7 +27,6 @@ I actively troubleshoot and contribute upstream fixes to enterprise and systems 
 - **Security CLI Engine (`nexguard`):** [Added scriptable JSON output to quarantine listings](https://github.com/jbrahy/nexguard/pull/67), including stable empty-array output and regression coverage. *(Merged)*
 - **Workflow Orchestration (`kestractl`):** [Made destructive flow deletion opt-in for bulk updates](https://github.com/kestra-io/kestractl/pull/165), aligned command safety defaults, and added regression coverage. *(In Review)*
 - **Template Tooling (`viber`):** [Hardened remote template archive loading](https://github.com/abits/viber/pull/12) against unsafe paths and oversized extraction, with regression coverage. *(In Review)*
-- **Canonical / Ubuntu (`lxd`):** [Fixed an asynchronous API race condition in Go](https://github.com/canonical/lxd/pull/18852) by refactoring the HTTP Wait endpoint payloads. *(In Review)*
 - **Enterprise Support Desk (`libredesk`):** [Scoped incoming HTML email content to a light canvas in Dark Mode](https://github.com/abhinavxd/libredesk/pull/452) using Vue and SCSS, preserving inline sender colours and readability. *(Merged)*
 - **Media Extraction Engine (`crunchyroll-downloader`):** [Rewrote memory allocation in Go to stream 7GB+ payloads directly to disk](https://github.com/CuteTenshii/crunchyroll-downloader/pull/31), mitigating OS-level OOM crashes. *(Merged)*
 
