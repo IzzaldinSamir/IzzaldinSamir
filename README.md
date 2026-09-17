@@ -3,12 +3,13 @@
 I'm a Telecommunications Engineer (B.Sc. Rank 1/33) based in Bucharest, pursuing an M.Sc. in Security Management (SMICES) at UPB. I specialize in Network Operations (NOC), Linux Systems Administration, and Telecom OSS Backend Integration.
 
 - 🔭 **Primary Target:** Junior NOC Engineer / Network Support / Telecom Operations roles in Bucharest or remote.
-- ⚙️ **Daily Toolkit:** Linux (Ubuntu/Debian), Go, Java, Bash, Python, Docker, Prometheus, Grafana, and Git.
+- ⚙️ **Daily Toolkit:** Linux (Ubuntu/Debian), Go, Java, Bash, Python, WireGuard, Docker, Prometheus, Grafana, Alertmanager, and Git.
 - 🤝 **Open Source:** 9 merged upstream pull requests across infrastructure, systems, security, and support tooling.
 
 ---
 
 ### 🔬 Engineering & Telecom Labs
+- 🔐 [**VPN NOC Operations Lab**](https://github.com/IzzaldinSamir/vpn-noc-operations-lab) — Site-to-site WireGuard operations lab with Prometheus, Grafana, Alertmanager, a custom Go exporter, ICMP/TCP/HTTP/DNS probes, nine alert rules, four controlled failure drills, an L1/L2 runbook, and full CI integration testing.
 - 📡 [**OSS Order Fulfilment Lab**](https://github.com/IzzaldinSamir/oss-order-fulfilment-lab) — Telecom OSS service-order provisioning engine in Java 21 featuring PostgreSQL persistence, SOAP inventory integration, JUnit 5 test suite (74.9% coverage), Docker Compose, and an L1/L2 operational runbook.
 - 📊 [**IoT NOC Monitoring Lab**](https://github.com/IzzaldinSamir/iot-noc-monitoring-lab) — Multi-container observability stack (Mosquitto MQTT, Prometheus, Grafana) with custom Go health check probes and ITIL L2 Wireshark packet-triage runbooks.
 
