@@ -31,7 +31,7 @@ I actively troubleshoot and contribute upstream fixes to enterprise and systems 
 - **Security CLI Engine (`nexguard`):** [Added scriptable JSON output to quarantine listings](https://github.com/jbrahy/nexguard/pull/67), including stable empty-array output and regression coverage. *(Merged)*
 - **Workflow Orchestration (`kestractl`):** [Added regression coverage for the safe bulk-update deletion default](https://github.com/kestra-io/kestractl/pull/165), locking deletion to explicit opt-in after the upstream behavior fix. *(Merged)*
 - **Template Tooling (`viber`):** [Hardened remote template archive loading](https://github.com/abits/viber/pull/12) against unsafe paths and oversized extraction, with regression coverage. *(Merged)*
-- **Enterprise Support Desk (`libredesk`):** [Scoped incoming HTML email content to a light canvas in Dark Mode](https://github.com/abhinavxd/libredesk/pull/452) using Vue and SCSS, preserving inline sender colours and readability. *(Merged)*
+- **Enterprise Support Desk (`libredesk`):** [Scoped incoming HTML email content to a light canvas in Dark Mode](https://github.com/abhinavxd/libredesk/pull/452) using Vue and SCSS/Tailwind utilities, preserving inline sender colours and readability. *(Merged; shipped in v2.9.0-rc.8)*
 - **Media Extraction Engine (`crunchyroll-downloader`):** [Rewrote memory allocation in Go to stream 7GB+ payloads directly to disk](https://github.com/CuteTenshii/crunchyroll-downloader/pull/31), mitigating OS-level OOM crashes. *(Merged)*
 
 ---
