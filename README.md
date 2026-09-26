@@ -4,7 +4,7 @@ I'm a Telecommunications Engineer (B.Sc. Rank 1/33) based in Bucharest, pursuing
 
 - 🔭 **Primary Target:** Junior NOC Engineer / Network Support / Telecom Operations roles in Bucharest or remote.
 - ⚙️ **Daily Toolkit:** Linux (Ubuntu/Debian), Go, Java, Bash, Python, WireGuard, Docker, Prometheus, Grafana, Alertmanager, and Git.
-- 🤝 **Open Source:** 11 merged upstream pull requests across infrastructure, systems, security, and support tooling.
+- 🤝 **Open Source:** 12 merged upstream pull requests across infrastructure, systems, security, and support tooling.
 
 ---
 
@@ -20,7 +20,7 @@ I'm a Telecommunications Engineer (B.Sc. Rank 1/33) based in Bucharest, pursuing
 I actively troubleshoot and contribute upstream fixes to enterprise and systems tooling:
 
 - **Canonical / Ubuntu (`lxd`):** [Corrected operation-wait failure, timeout, and cancellation semantics](https://github.com/canonical/lxd/pull/18852) across the LXD daemon and agent, with regression coverage across affected integration suites. *(Merged)*
-- **Canonical / Ubuntu (`lxd`):** [Added regression coverage for shared-project root-volume visibility](https://github.com/canonical/lxd/pull/19078), ensuring restricted project operators retain access to instance root volumes when custom storage volumes are shared. *(In Review)*
+- **Canonical / Ubuntu (`lxd`):** [Added regression coverage for shared-project root-volume visibility](https://github.com/canonical/lxd/pull/19078), ensuring restricted project operators retain access to instance root volumes when custom storage volumes are shared. *(Merged)*
 - **Canonical / Ubuntu (`lxd`):** [Preserved existing VM template file permissions](https://github.com/canonical/lxd/pull/19083) in the guest agent while retaining secure defaults for new files, with regression coverage for overwrite and create-only paths. *(In Review)*
 - **Linux Foundation (`FabricOps`):** [Implemented YAML serialization for Kubernetes-native status reporting](https://github.com/LF-Decentralized-Trust-labs/FabricOps/pull/35) in a Go-based CLI tool. *(Merged)*
 - **Desktop Audio Client (`limusic`):** [Implemented cross-platform webview zoom scaling hotkeys for high-DPI displays](https://github.com/SimoHypers/limusic/pull/58) in Tauri. *(Merged)*
