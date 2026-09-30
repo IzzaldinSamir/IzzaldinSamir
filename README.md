@@ -4,7 +4,7 @@ I'm a Telecommunications Engineer (B.Sc. Rank 1/33) based in Bucharest, pursuing
 
 - 🔭 **Primary Target:** Junior NOC Engineer / Network Support / Telecom Operations roles in Bucharest or remote.
 - ⚙️ **Daily Toolkit:** Linux (Ubuntu/Debian), Go, Java, Bash, Python, WireGuard, Docker, Prometheus, Grafana, Alertmanager, and Git.
-- 🤝 **Open Source:** 12 merged upstream pull requests across infrastructure, systems, security, and support tooling.
+- 🤝 **Open Source:** 13 merged upstream contributions across infrastructure, systems, security, and support tooling.
 
 ---
 
@@ -27,7 +27,7 @@ I actively troubleshoot and contribute upstream fixes to enterprise and systems 
 - **Kubernetes Automation (`kprompt`):** [Enforced strict resource-scaling validation in Go](https://github.com/kprompt/kprompt/pull/113) to prevent late-stage executor failures. *(Merged)*
 - **AI Infrastructure (`canvas-api-mcp`):** [Implemented secure HTTP error handling and Python regression tests](https://github.com/JohannsenLum/canvas-api-mcp/pull/25) to prevent API credential leakage. *(Merged)*
 - **Terminal UI (`lazyftp`):** [Resolved an order-of-operations rendering bug](https://github.com/MawCeron/lazyftp/pull/57) in a Go-based TUI client. *(Merged)*
-- **SQL Engine (`go-mysql-server`):** [Replaced runtime binary-collation name checks with explicit metadata](https://github.com/dolthub/go-mysql-server/pull/3850) and added regression coverage across the collation table. *(In Review)*
+- **SQL Engine (`go-mysql-server`):** [Replaced runtime binary-collation name checks with explicit metadata](https://github.com/dolthub/go-mysql-server/pull/3850) and added regression coverage across the collation table. *(Merged via [#3961](https://github.com/dolthub/go-mysql-server/pull/3961), with original authorship preserved)*
 - **Security CLI Engine (`nexguard`):** [Added scriptable JSON output to quarantine listings](https://github.com/jbrahy/nexguard/pull/67), including stable empty-array output and regression coverage. *(Merged)*
 - **Workflow Orchestration (`kestractl`):** [Added regression coverage for the safe bulk-update deletion default](https://github.com/kestra-io/kestractl/pull/165), locking deletion to explicit opt-in after the upstream behavior fix. *(Merged)*
 - **Template Tooling (`viber`):** [Hardened remote template archive loading](https://github.com/abits/viber/pull/12) against unsafe paths and oversized extraction, with regression coverage. *(Merged)*
