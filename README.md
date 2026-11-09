@@ -9,6 +9,8 @@ I'm a Telecommunications Engineer (B.Sc. Rank 1/33) based in Bucharest, pursuing
 ---
 
 ### 🔬 Featured Projects & Labs
+> 📖 *For in-depth architecture breakdowns, lab topologies, and operational runbooks, see [**PROJECTS.md**](PROJECTS.md).*
+
 - 🎯 [**PrioNudge**](https://prionudge.com/) ([Releases & Downloads](https://github.com/IzzaldinSamir/prionudge-releases)) — Local-first, keyboard-first Windows desktop task manager built with Tauri, Rust, and SQLite. Features global quick capture, structured "Decide → Capture → Do → Track" workflows, focus and activity tracking with daily targets, system tray controls, and signature-verified automatic updates.
 - 🔐 [**VPN NOC Operations Lab**](https://github.com/IzzaldinSamir/vpn-noc-operations-lab) — Site-to-site WireGuard operations lab with Prometheus, Grafana, Alertmanager, a custom Go exporter, ICMP/TCP/HTTP/DNS probes, nine alert rules, four controlled failure drills, an L1/L2 runbook, and full CI integration testing.
 - 📡 [**OSS Order Fulfilment Lab**](https://github.com/IzzaldinSamir/oss-order-fulfilment-lab) — Telecom OSS service-order provisioning engine in Java 21 featuring PostgreSQL persistence, SOAP inventory integration, JUnit 5 test suite (74.9% coverage), Docker Compose, and an L1/L2 operational runbook.
