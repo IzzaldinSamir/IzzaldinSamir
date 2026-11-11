@@ -76,6 +76,7 @@ flowchart LR
   - `make drill-service-down`: Isolates application HTTP failure while transport tunnel remains operational.
   - `make drill-dns-failure`: Validates DNS-specific degradation.
   - `make drill-latency`: Injects a 300 ms delay using Linux `tc qdisc` netem on `wg0`.
+- **Operational Runbook & Triage:** Includes a dedicated L1/L2 operations runbook (`RUNBOOK.md`) detailing alert-specific triage paths, diagnostic commands, metric thresholds, and escalation protocols for all nine alert rules.
 - **Validation Pipeline:** Automated CI pipeline verifying Go formatting, unit tests, race detection (`-race`), ShellCheck syntax, Docker Compose validity, `promtool` alert unit tests, and live end-to-end smoke tests.
 
 ---
@@ -114,7 +115,7 @@ sequenceDiagram
 - **Strict Idempotency:** Submitting an order with a duplicate `orderId` returns the stored result with HTTP 200 without re-issuing duplicate SOAP reservation calls to the downstream inventory system.
 - **Hardened XML Parser:** Defensive `DocumentBuilderFactory` configuration with XML external entity (XXE) resolution and DTD processing explicitly disabled; enforces an upper payload limit of 64 KiB to prevent denial-of-service vectors.
 - **Dual JDBC Persistence Strategy:** Direct parameterized SQL execution without heavyweight ORMs; runs against PostgreSQL in Docker Compose and against an in-memory H2 database during integration test runs.
-- **Automated Test Coverage & CI:** 15 JUnit 5 test suites validating repository layers, HTTP handling, FSM transitions, and SOAP edge cases, reaching **74.9% line coverage** verified via JaCoCo in GitHub Actions. Includes L1/L2 operations runbook (`docs/runbook.md`).
+- **Automated Test Coverage & CI:** 15 JUnit 5 unit and integration tests across 7 test suites validating repository layers, HTTP handling, FSM transitions, and SOAP edge cases, reaching **74.9% line coverage** verified via JaCoCo in GitHub Actions. Includes L1/L2 operations runbook (`docs/runbook.md`).
 
 ---
 
